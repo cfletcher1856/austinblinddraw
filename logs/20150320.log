@@ -1,0 +1,312 @@
+2015/03/20 00:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/03/20 01:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/03/20 01:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/03/20 03:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/upload".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/upload')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/upload/
+---
+2015/03/20 03:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/uploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/uploader')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/uploader/
+---
+2015/03/20 03:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/uploads".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/uploads')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/uploads/
+---
+2015/03/20 03:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('upload')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/
+---
+2015/03/20 03:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('uploader')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploader/
+---
+2015/03/20 03:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+---
+2015/03/20 03:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "maximageuploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('maximageuploade...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/maximageuploader/
+---
+2015/03/20 03:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imageuploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('imageuploader')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imageuploader/
+---
+2015/03/20 03:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/maximageuploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/maximageu...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/maximageuploader/
+---
+2015/03/20 03:25:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/imageuploader".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/imageuplo...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/imageuploader/
+---
+2015/03/20 04:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin-sdb/printenv".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin-sdb/pri...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin-sdb/printenv
+---
+2015/03/20 04:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-mod/index.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-mod/index.c...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-mod/index.cgi
+---
+2015/03/20 04:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "xul".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('xul')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xul/
+---
+2015/03/20 04:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/status".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/status')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/status
+---
+2015/03/20 04:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tmUnblock.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tmUnblock.cgi')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tmUnblock.cgi
+---
+2015/03/20 04:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gitweb".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('gitweb')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gitweb/
+---
+2015/03/20 04:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gitweb.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('gitweb.cgi')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gitweb.cgi
+---
+2015/03/20 04:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gitweb/gitweb.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('gitweb/gitweb.c...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gitweb/gitweb.cgi
+---
+2015/03/20 04:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/
+---
+2015/03/20 04:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php
+---
+2015/03/20 04:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php5".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php5')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php5
+---
+2015/03/20 04:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php4".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php4')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php4
+---
+2015/03/20 04:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php-cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php-cgi')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php-cgi
+---
+2015/03/20 04:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php.cgi')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php.cgi
+---
+2015/03/20 04:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/firmwarecfg".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/firmwar...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/firmwarecfg
+---
+2015/03/20 04:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin///admin.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin///admin...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/%2f/admin.html
+---
+2015/03/20 04:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/admin.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/admin.h...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/admin.html
+---
+2015/03/20 04:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/test-cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/test-cg...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/test-cgi
+---
+2015/03/20 04:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dana-na/auth/url_default/welcome.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('dana-na/auth/ur...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dana-na/auth/url_default/welcome.cgi
+---
+2015/03/20 04:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/ICuGI/EST/blast_detail.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/ICuGI/E...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/ICuGI/EST/blast_detail.cgi
+---
+2015/03/20 04:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/hello".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/hello')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/hello
+---
+2015/03/20 04:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/w3mman2html.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/w3mman2...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/w3mman2html.cgi
+---
+2015/03/20 04:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/status/status.cgi".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/status/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/status/status.cgi
+---
+2015/03/20 14:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/03/20 20:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/03/20 20:36:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

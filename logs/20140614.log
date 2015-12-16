@@ -1,0 +1,64 @@
+2014/06/14 00:36:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/14 02:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-admin".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-admin')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-admin/
+---
+2014/06/14 02:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress/wp-admin".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wordpress/wp-ad...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress/wp-admin/
+---
+2014/06/14 02:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/wp-admin".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('blog/wp-admin')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/wp-admin/
+---
+2014/06/14 14:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/14 16:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/14 17:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/14 18:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

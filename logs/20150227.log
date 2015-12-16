@@ -1,0 +1,33 @@
+2015/02/27 03:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/user/
+---
+2015/02/27 13:15:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/account/login".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/accoun...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/customer/account/login
+HTTP_REFERER=http://ragsblinddraw.com/customer/account/login
+---
+2015/02/27 18:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/02/27 21:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

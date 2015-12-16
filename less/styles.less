@@ -1,0 +1,84 @@
+@import "protected/extensions/bootstrap/assets/less/bootstrap.less";
+@import "fontawesome/font-awesome.less";
+@import "datepicker.less";
+@import "chosen.less";
+
+/* Override some defaults */
+html, body {
+  background-color: #eee;
+  background-image: url('/images/cross_scratches.png');
+}
+
+//Showing vertical scrolling so the page doesn't hop when the content passes the fold
+html {
+  -ms-overflow-y: scroll;
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 50px; /* 40px to make the container go all the way to the bottom of the topbar */
+}
+
+/* The white background content wrapper */
+.container > .content,
+.container-fluid > .content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.center{
+  text-align: center !important;
+}
+
+.clear{ clear: both; }
+
+#footer{
+  text-align: center;
+  margin-top: 10px;
+}
+
+th a span.caret{
+  display: none;
+}
+
+.table{
+  input{
+    margin-bottom: 0;
+  }
+}
+
+.player_add td{
+  vertical-align: middle;
+}
+
+td.warning{
+  background-color: @orange;
+}
+
+.money_prepend{
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+  .span5&{
+    width: 430px !important;
+  }
+}
+
+#challonge_bracket{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+#challonge_tournaments_modal{
+  padding: 15px;
+  .modal-body{
+    overflow: hidden !important;
+  }
+}

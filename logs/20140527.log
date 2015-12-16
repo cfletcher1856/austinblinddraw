@@ -1,0 +1,2069 @@
+2014/05/27 00:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/05/27 07:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('about')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://ragsblinddraw.com/
+---
+2014/05/27 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/27 08:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forgotpassword".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('forgotpassword')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forgotpassword
+HTTP_REFERER=http://ragsblinddraw.com/login
+---
+2014/05/27 08:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgotpassword".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('forgotpassword')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('forgotpassword')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forgotpass...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpassword
+HTTP_REFERER=http://ragsblinddraw.com/login
+---
+2014/05/27 08:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgotpassword".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('forgotpassword')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('forgotpassword')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forgotpass...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpassword
+HTTP_REFERER=http://ragsblinddraw.com/login
+---
+2014/05/27 08:35:44 [error] [php] include(Player.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(27): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (27)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 08:36:34 [error] [php] include(JPhpMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(52): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(38): ForgotPasswordForm->send_notification_email()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (52)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+2014/05/27 08:37:26 [error] [php] include(JPhpMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(52): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(38): ForgotPasswordForm->send_notification_email()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (52)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+2014/05/27 08:37:31 [error] [php] include(JPhpMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(52): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(38): ForgotPasswordForm->send_notification_email()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (52)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+2014/05/27 08:38:23 [error] [php] include(JPhpMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(52): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(38): ForgotPasswordForm->send_notification_email()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (52)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+2014/05/27 08:38:26 [error] [php] include(JPhpMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:421)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(52): spl_autoload_call()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php(38): ForgotPasswordForm->send_notification_email()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php(121): ForgotPasswordForm->set_reset_token()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): SiteController->actionForgotPassword()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): SiteController->runAction()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpassword
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (52)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/models/ForgotPasswordForm.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/controllers/SiteController.php (121)
+2014/05/27 08:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "resetpassword/5384a440698dd".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('resetpassword/5...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/resetpassword/5384a440698dd
+---
+2014/05/27 08:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('about')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://ragsblinddraw.com/
+---
+2014/05/27 08:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+HTTP_REFERER=http://ragsblinddraw.com/site/about
+---
+2014/05/27 08:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "standings".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('standings')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('standings')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/standings')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/standings
+HTTP_REFERER=http://ragsblinddraw.com/site/rules
+---
+2014/05/27 08:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "players".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('players')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('players')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/players')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/players
+HTTP_REFERER=http://ragsblinddraw.com/site/standings
+---
+2014/05/27 08:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "blinddraw".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('blinddraw')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('blinddraw')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blinddraw')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/blinddraw
+HTTP_REFERER=http://ragsblinddraw.com/site/contact
+---
+2014/05/27 09:07:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.less" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/base/CModule.php(105): CComponent->__get('less')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): CModule->__get('less')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/
+---
+2014/05/27 09:08:06 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "webroot.themes.raggedy_anne.views.partials.breadcrumbs".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(30): CController->renderPartial('webroot.themes....')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/
+---
+2014/05/27 09:08:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:09:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:14:23 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.less" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/base/CModule.php(105): CComponent->__get('less')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/director.php(19): CModule->__get('less')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/DefaultController.php(7): CController->render('index')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/director
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:14:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:16:39 [error] [exception.CException] exception 'CException' with message 'Property "EWebUser.isAdmin" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/auth/CWebUser.php(140): CComponent->__get('isAdmin')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/partials/navbar.php(33): CWebUser->__get('isAdmin')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', NULL, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', NULL, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/director.php(25): CController->renderPartial('webroot.themes....')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#9 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/DefaultController.php(7): CController->render('index')
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director')
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/director
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 09:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/05/27 09:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+---
+2014/05/27 09:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('about')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+---
+2014/05/27 09:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 1".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+1
+---
+2014/05/27 09:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 3".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+3
+---
+2014/05/27 09:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 2".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+2
+---
+2014/05/27 09:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "players".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('players')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('players')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/players')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/players
+---
+2014/05/27 09:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "makeups".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('makeups')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('makeups')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/makeups')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/makeups
+---
+2014/05/27 09:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "blinddraw".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('blinddraw')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('blinddraw')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blinddraw')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/blinddraw
+---
+2014/05/27 09:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "standings".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('standings')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('standings')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/standings')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/standings
+---
+2014/05/27 09:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 09:54:20 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (/home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CListView.php(281): UserController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbListView->renderContent()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbListView->run()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(17): UserController->widget()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): UserController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): UserController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(133): UserController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): UserController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): UserController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/user/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php (17)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php (133)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 09:54:48 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (/home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CListView.php(281): UserController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbListView->renderContent()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbListView->run()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(17): UserController->widget()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): UserController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): UserController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(133): UserController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): UserController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): UserController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/user/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php (17)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php (133)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 09:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/create
+---
+2014/05/27 09:58:25 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (/home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CListView.php(281): UserController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbListView->renderContent()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbListView->run()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(17): UserController->widget()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): UserController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): UserController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(134): UserController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): UserController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): UserController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/user/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php (17)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php (134)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 09:59:48 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (/home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CListView.php(281): UserController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbListView->renderContent()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbListView->run()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(19): UserController->widget()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): UserController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): UserController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(134): UserController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): UserController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): UserController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/user/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php (19)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php (134)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 10:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:05:47 [error] [exception.CException] exception 'CException' with message 'Failed to compile LESS. Source path must be readable.' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:86
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:08:25 [error] [exception.CException] exception 'CException' with message 'Failed to compile LESS. Source path must be readable.' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:86
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:08:27 [error] [exception.CException] exception 'CException' with message 'Failed to compile LESS. Source path must be readable.' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:86
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/27 10:10:24 [error] [exception.CException] exception 'CException' with message 'Failed to compile file "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" using command: "/home4/colinfle/node/bin/node" "/home4/colinfle/node/bin/lessc"  "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" "/home4/colinfle/public_html/ragsblinddraw.com/css/styles.css"' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:133
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php(91): LessServerCompiler->compileFile('/home4/colinfle...', '/home4/colinfle...')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#13 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:10:28 [error] [exception.CException] exception 'CException' with message 'Failed to compile file "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" using command: "/home4/colinfle/node/bin/node" "/home4/colinfle/node/bin/lessc"  "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" "/home4/colinfle/public_html/ragsblinddraw.com/css/styles.css"' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:133
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php(91): LessServerCompiler->compileFile('/home4/colinfle...', '/home4/colinfle...')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#13 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.woff?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('font/fontawesom...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/fontawesome-webfont.ttf?v=3.0.1
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:20:26 [error] [exception.CException] exception 'CException' with message 'Failed to compile file "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" using command: "/home4/colinfle/node/bin/node" "/home4/colinfle/node/bin/lessc"  "/home4/colinfle/public_html/ragsblinddraw.com/less/styles.less" "/home4/colinfle/public_html/ragsblinddraw.com/css/styles.css"' in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php:133
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/LessServerCompiler.php(91): LessServerCompiler->compileFile('/home4/colinfle...', '/home4/colinfle...')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/less/components/Less.php(59): LessServerCompiler->run()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/themes/raggedy_anne/views/layouts/admin.php(19): Less->register()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(784): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#13 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/27 10:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/styles.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('css/styles.css')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/styles.css
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/fontawesome-webfont.woff?v=4.1.0
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/fontawesome-webfont.ttf?v=4.1.0
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.svg".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/fontawesome-webfont.svg?v=4.1.0
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/raggedy_anne/js/chosen.jquery.min.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/raggedy_...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/raggedy_anne/js/chosen.jquery.min.js
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://ragsblinddraw.com/admin
+---
+2014/05/27 10:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/fontawesome-webfont.eot
+---
+2014/05/27 10:29:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/fontawesome-webfont.eot
+---
+2014/05/27 10:49:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home4/colinfle/YiiRoot1.1.13/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/user/admin
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/index
+---
+2014/05/27 10:55:08 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (/home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CListView.php(281): UserController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbListView->renderContent()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbListView->run()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(20): UserController->widget()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): UserController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): UserController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(133): UserController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): UserController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): UserController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/user/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php (20)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php (133)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 10:57:21 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "activeChar".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(225): CComponent->__call('activeChar', Array)
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): CActiveRecord->__call('activeChar', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): User->activeChar()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606): eval()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CDataColumn.php(131): CComponent->evaluateExpression('$data->activeCh...', Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(User))
+#6 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): CGridColumn->renderDataCell(0)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): CGridView->renderTableRow(0)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): CGridView->renderTableBody()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): CGridView->renderItems()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): CBaseListView->renderSection(Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent('/{(\w+)}/', Array, '{items} {pager}')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): CBaseListView->run()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/views/user/index.php(35): CBaseController->widget()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('bootstrap.widge...', Array)
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('/home4/colinfle...', Array, true)
+#18 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(133): CController->render('index', Array, true)
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): UserController->actionIndex('index', Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Array)
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run(Object(CInlineAction))
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run(Object(CFilterChain))
+#27 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters()
+#28 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run(Object(CInlineAction), Array)
+#29 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#30 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest('admin/user/inde...')
+#31 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/admin/user/index
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/create
+---
+2014/05/27 10:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+---
+2014/05/27 11:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 1".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+1
+---
+2014/05/27 11:02:25 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(55): CController->render('view', Array)
+#2 [internal function]: UserController->actionView('1')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/user/view...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user/view/id/1
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/update/id/1
+---
+2014/05/27 11:02:36 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(55): CController->render('view', Array)
+#2 [internal function]: UserController->actionView('1')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/user/view...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user/view/id/1
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/update/id/1
+---
+2014/05/27 11:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('about')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+---
+2014/05/27 11:05:27 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/admin/controllers/UserController.php(55): CController->render('view', Array)
+#2 [internal function]: UserController->actionView('1')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/user/view...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user/view/id/1
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/update/id/1
+---
+2014/05/27 11:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "makeups".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('makeups')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('makeups')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/makeups')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/makeups
+---
+2014/05/27 11:14:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "players".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('players')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('players')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/players')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/players
+---
+2014/05/27 11:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/chosen-sprite.png".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('images/chosen-s...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/chosen-sprite.png
+HTTP_REFERER=http://ragsblinddraw.com/admin/user/update/id/1
+---
+2014/05/27 11:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "blinddraw".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('blinddraw')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('blinddraw')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blinddraw')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/blinddraw
+---
+2014/05/27 11:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "standings".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('standings')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('standings')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/standings')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/standings
+---
+2014/05/27 11:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 2".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+2
+---
+2014/05/27 11:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schedule/Spring 2014/Division 3".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('schedule/Spring...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/schedule/Spring+2014/Division+3
+---
+2014/05/27 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 12:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 12:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 12:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:34:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/27 13:36:05 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.director.models.tournament" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home4/colinfle/YiiRoot1.1.13/framework/YiiBase.php:316
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/gii/generators/crud/CrudCode.php(59): YiiBase::import('application.mod...', true)
+#1 /home4/colinfle/YiiRoot1.1.13/framework/validators/CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(BootstrapCode), 'model')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CModel.php(159): CValidator->validate(Object(BootstrapCode), NULL)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/gii/CCodeGenerator.php(159): CModel->validate()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/bootstrap')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/gii/bootstrap
+HTTP_REFERER=http://ragsblinddraw.com/gii/bootstrap
+---
+2014/05/27 13:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 13:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "director/tournaments".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/director/tournaments
+HTTP_REFERER=http://ragsblinddraw.com/director
+---
+2014/05/27 15:15:41 [error] [php] Object of class Tournament could not be converted to string (/home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/input/TbInput.php:361)
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbActiveForm.php(497): TournamentController->widget()
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbActiveForm.php(186): TbActiveForm->inputRow()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/_form.php(10): TbActiveForm->textFieldRow()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/create.php(13): TournamentController->renderPartial()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#11 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(72): TournamentController->render()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionCreate()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/create
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/input/TbInput.php (361)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/input/TbInputVertical.php (23)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbActiveForm.php (497)
+2014/05/27 15:34:22 [error] [exception.CException] exception 'CException' with message 'Property "Tournament.high_dart_fee" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(143): CComponent->__get('high_dart_fee')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/_form.php(24): CActiveRecord->__get('high_dart_fee')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/create.php(13): CController->renderPartial('_form', Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(72): CController->render('create', Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionCreate()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#22 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/director/tournament/create
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/create
+---
+2014/05/27 15:41:29 [error] [exception.CException] exception 'CException' with message 'EWebUser and its behaviors do not have a method or closure named "getFullName".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/_form.php(8): CComponent->__call('getFullName', Array)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/_form.php(8): EWebUser->getFullName()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/create.php(13): CController->renderPartial('_form', Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(72): CController->render('create', Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionCreate()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#22 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/director/tournament/create
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/create
+---
+2014/05/27 15:42:14 [warning] [application] Failed to set unsafe attribute "hight_out" of "Tournament".
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (65)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 15:42:14 [error] [exception.CException] exception 'CException' with message 'TournamentController cannot find the requested view "view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(49): CController->render('view', Array)
+#2 [internal function]: TournamentController->actionView('1')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/director/tournament/view/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/create
+---
+2014/05/27 15:42:30 [error] [exception.CException] exception 'CException' with message 'Tournament and its behaviors do not have a method or closure named "getFullName".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(225): CComponent->__call('getFullName', Array)
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): CActiveRecord->__call('getFullName', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): Tournament->getFullName()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606): eval()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CDataColumn.php(131): CComponent->evaluateExpression('$data->getFullN...', Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Tournament))
+#6 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): CGridColumn->renderDataCell(0)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): CGridView->renderTableRow(0)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): CGridView->renderTableBody()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): CGridView->renderItems()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): CBaseListView->renderSection(Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent('/{(\w+)}/', Array, '{items} {pager}')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): CBaseListView->run()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(32): CBaseController->widget()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('bootstrap.widge...', Array)
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('/home4/colinfle...', Array, true)
+#18 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(127): CController->render('index', Array, true)
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex('index', Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Array)
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run(Object(CInlineAction))
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run(Object(CFilterChain))
+#27 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters()
+#28 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run(Object(CInlineAction), Array)
+#29 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#30 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest('director/tourna...')
+#31 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/director/tournament/
+---
+2014/05/27 15:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "idnex".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('idnex')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('idnex')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/director/tournament/idnex
+---
+2014/05/27 15:42:39 [error] [exception.CException] exception 'CException' with message 'Tournament and its behaviors do not have a method or closure named "getFullName".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(225): CComponent->__call('getFullName', Array)
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): CActiveRecord->__call('getFullName', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606) : eval()'d code(1): Tournament->getFullName()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php(606): eval()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CDataColumn.php(131): CComponent->evaluateExpression('$data->getFullN...', Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Tournament))
+#6 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): CGridColumn->renderDataCell(0)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): CGridView->renderTableRow(0)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): CGridView->renderTableBody()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): CGridView->renderItems()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): CBaseListView->renderSection(Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent('/{(\w+)}/', Array, '{items} {pager}')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): CBaseListView->run()
+#13 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(32): CBaseController->widget()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('bootstrap.widge...', Array)
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('/home4/colinfle...', Array, true)
+#18 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(127): CController->render('index', Array, true)
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex('index', Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Array)
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run(Object(CInlineAction))
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run(Object(CFilterChain))
+#27 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters()
+#28 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run(Object(CInlineAction), Array)
+#29 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#30 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest('director/tourna...')
+#31 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/director/tournament/index
+---
+2014/05/27 15:47:00 [warning] [application] Failed to set unsafe attribute "hight_out" of "Tournament".
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (97)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 15:47:00 [error] [exception.CException] exception 'CException' with message 'TournamentController cannot find the requested view "view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:878
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(49): CController->render('view', Array)
+#2 [internal function]: TournamentController->actionView('1')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/director/tournament/view/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/update/id/1
+---
+2014/05/27 15:48:50 [warning] [application] Failed to set unsafe attribute "hight_out" of "Tournament".
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (67)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 15:54:25 [error] [exception.CException] exception 'CException' with message 'Property "Tournament.high_dart" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(143): CComponent->__get('high_dart')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/_form.php(20): CActiveRecord->__get('high_dart')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/update.php(18): CController->renderPartial('_form', Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(110): CController->render('update', Array)
+#11 [internal function]: TournamentController->actionUpdate('2')
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('update')
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#24 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/director/tournament/update/id/2
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/index
+---
+2014/05/27 16:06:56 [warning] [application] Failed to set unsafe attribute "hight_dart" of "Tournament".
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (67)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 16:06:56 [warning] [application] Failed to set unsafe attribute "hight_out" of "Tournament".
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (67)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/05/27 16:08:33 [error] [php] call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, '' was given (/home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:611)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CButtonColumn.php(295): TbButtonColumn->renderButton()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): TbButtonColumn->renderDataCell()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): TbGridView->renderTableRow()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): TbGridView->renderTableBody()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbGridView->renderContent()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbGridView->run()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(38): TournamentController->widget()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#15 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(145): TournamentController->render()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbButtonColumn.php (56)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (145)
+2014/05/27 16:08:52 [error] [php] call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, '' was given (/home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:611)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CButtonColumn.php(295): TbButtonColumn->renderButton()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): TbButtonColumn->renderDataCell()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): TbGridView->renderTableRow()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): TbGridView->renderTableBody()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbGridView->renderContent()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbGridView->run()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(38): TournamentController->widget()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#15 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(145): TournamentController->render()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbButtonColumn.php (56)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (145)
+2014/05/27 16:09:20 [error] [php] call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, '' was given (/home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:611)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CButtonColumn.php(295): TbButtonColumn->renderButton()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): TbButtonColumn->renderDataCell()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): TbGridView->renderTableRow()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): TbGridView->renderTableBody()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbGridView->renderContent()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbGridView->run()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(38): TournamentController->widget()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#15 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(145): TournamentController->render()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbButtonColumn.php (56)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (145)
+2014/05/27 16:09:31 [error] [php] call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, '' was given (/home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:611)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CButtonColumn.php(295): TbButtonColumn->renderButton()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): TbButtonColumn->renderDataCell()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): TbGridView->renderTableRow()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): TbGridView->renderTableBody()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbGridView->renderContent()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbGridView->run()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(38): TournamentController->widget()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#15 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(145): TournamentController->render()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbButtonColumn.php (56)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (145)
+2014/05/27 16:09:32 [error] [php] call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, '' was given (/home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:611)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CButtonColumn.php(295): TbButtonColumn->renderButton()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(589): TbButtonColumn->renderDataCell()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(545): TbGridView->renderTableRow()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/grid/CGridView.php(455): TbGridView->renderTableBody()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(160): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/zii/widgets/CBaseListView.php(128): TbGridView->renderContent()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(173): TbGridView->run()
+#10 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php(38): TournamentController->widget()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): TournamentController->renderInternal()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#15 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(145): TournamentController->render()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(49): TournamentController->actionIndex()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#22 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#24 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#25 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#26 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/index
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/bootstrap/widgets/TbButtonColumn.php (56)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/index.php (38)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (145)
+2014/05/27 21:41:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

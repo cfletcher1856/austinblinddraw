@@ -1,0 +1,53 @@
+2015/01/20 20:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wp')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp
+HTTP_REFERER=http://ragsblinddraw.com/wp
+---
+2015/01/20 20:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('blog')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog
+HTTP_REFERER=http://ragsblinddraw.com/blog
+---
+2015/01/20 20:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "joomla".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('joomla')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/joomla
+HTTP_REFERER=http://ragsblinddraw.com/joomla
+---
+2015/01/20 20:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "drupal".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('drupal')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/drupal
+HTTP_REFERER=http://ragsblinddraw.com/drupal
+---
+2015/01/20 20:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wordpress')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress
+HTTP_REFERER=http://ragsblinddraw.com/wordpress
+---
+2015/01/20 22:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

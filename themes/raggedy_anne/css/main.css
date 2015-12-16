@@ -1,0 +1,16 @@
+/* Override some defaults */
+.center {
+  text-align: center !important;
+}
+#footer {
+  text-align: center;
+  margin-top: 10px;
+}
+th a span.caret {
+  display: none;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #f5f5f5;
+}

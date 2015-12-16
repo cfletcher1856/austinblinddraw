@@ -1,0 +1,398 @@
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120529' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120529, :yp3='A', :yp4=1, :yp5=16229113, :yp6=16229114, :yp7='complete'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120530' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120530, :yp3='B', :yp4=1, :yp5=16229115, :yp6=16229116, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120531' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120531, :yp3='C', :yp4=1, :yp5=16229117, :yp6=16229118, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120532' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120532, :yp3='D', :yp4=2, :yp5=16229112, :yp6=16229113, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120533' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120533, :yp3='E', :yp4=2, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120534' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120534, :yp3='F', :yp4=3, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120535' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120535, :yp3='I', :yp4=-1, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120536' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120536, :yp3='J', :yp4=-2, :yp5=NULL, :yp6=16229114, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120537' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120537, :yp3='K', :yp4=-2, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120538' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120538, :yp3='L', :yp4=-3, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120539' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120539, :yp3='M', :yp4=-4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120540' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120540, :yp3='G', :yp4=4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:55:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120541' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120541, :yp3='H', :yp4=4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120529' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120529, :yp3='A', :yp4=1, :yp5=16229113, :yp6=16229114, :yp7='complete'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120530' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120530, :yp3='B', :yp4=1, :yp5=16229115, :yp6=16229116, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120531' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120531, :yp3='C', :yp4=1, :yp5=16229117, :yp6=16229118, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120532' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120532, :yp3='D', :yp4=2, :yp5=16229112, :yp6=16229113, :yp7='open'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120533' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120533, :yp3='E', :yp4=2, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120534' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120534, :yp3='F', :yp4=3, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120535' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120535, :yp3='I', :yp4=-1, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120536' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120536, :yp3='J', :yp4=-2, :yp5=NULL, :yp6=16229114, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120537' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120537, :yp3='K', :yp4=-2, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120538' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120538, :yp3='L', :yp4=-3, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120539' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120539, :yp3='M', :yp4=-4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120540' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120540, :yp3='G', :yp4=4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 06:56:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '23120541' for key 'challonge_match_id'. The SQL statement executed was: INSERT INTO `match` (`tournament_id`, `challonge_tournament_id`, `challonge_match_id`, `identifier`, `round`, `team_1`, `team_2`, `state`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=2, :yp1=1066104, :yp2=23120541, :yp3='H', :yp4=4, :yp5=NULL, :yp6=NULL, :yp7='pending'.
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (364)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 07:19:30 [error] [exception.CException] exception 'CException' with message 'Property "Match.status" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:130
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(143): CComponent->__get('status')
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/models/Tournament.php(480): CActiveRecord->__get('status')
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(287): Tournament->get_match_display()
+#3 [internal function]: TournamentController->actionMatches('2')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matches')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/director/tournament/matches/id/2
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/teams/id/2
+---
+2014/07/02 08:06:55 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/ChallongeAPI.php:109)
+Stack trace:
+#0 unknown(0): TournamentController->actionStartTournament()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/starttournament/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/ChallongeAPI.php (109)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/extensions/ChallongeAPI.php (172)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (336)
+2014/07/02 08:07:53 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php:350)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/starttournament/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (350)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 08:08:29 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php:350)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/starttournament/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (350)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 08:09:15 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php:350)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/starttournament/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (350)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 08:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/full_page_form.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/full_pag...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/full_page_form.css?body=1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/starttournament/id/1
+---
+2014/07/02 08:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_Incapsula_Resource".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('_Incapsula_Reso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=4
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/starttournament/id/1
+---
+2014/07/02 08:54:03 [error] [exception.CException] exception 'CException' with message 'Property "CHasManyRelation.type" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:173
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(1941): CComponent->__set('type', 'INNER JOIN')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(2356): CBaseActiveRelation->__construct('team_1', 'Team', '', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(2337): CActiveRecordMetaData->addRelation('team_1', Array)
+#3 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Match))
+#4 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/models/Match.php(29): CActiveRecord::model('Match')
+#5 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/models/Tournament.php(470): Match::model()
+#6 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(286): Tournament->get_match_display()
+#7 [internal function]: TournamentController->actionMatches('1')
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matches')
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#20 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/director/tournament/matches/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/teams/id/1
+---
+2014/07/02 09:07:11 [error] [exception.CException] exception 'CException' with message 'Match and its behaviors do not have a method or closure named "get_match".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(225): CComponent->__call('get_match', Array)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php(14): CActiveRecord->__call('get_match', Array)
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php(14): Match->get_match()
+#3 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('matches', Array, true)
+#7 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(294): CController->render('matches', Array)
+#8 [internal function]: TournamentController->actionMatches('1')
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matches')
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#21 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/director/tournament/matches/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/teams/id/1
+---
+2014/07/02 10:15:19 [error] [exception.CException] exception 'CException' with message 'TournamentController contains improperly nested widget tags in its view "/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php". A TbModal widget does not have an endWidget() call.' in /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php:101
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('matches', Array, true)
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(294): CController->render('matches', Array)
+#3 [internal function]: TournamentController->actionMatches('1')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matches')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/director/tournament/matches/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/teams/id/1
+---
+2014/07/02 10:47:50 [error] [exception.CException] exception 'CException' with message 'Property "TbModal.style" is not defined.' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:173
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWidgetFactory.php(161): CComponent->__set('style', 'padding: 15px')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TournamentController), 'bootstrap.widge...', Array)
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php(52): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(126): require('/home4/colinfle...')
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home4/colinfle...', Array, true)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): CBaseController->renderFile('/home4/colinfle...', Array, true)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): CController->renderPartial('matches', Array, true)
+#8 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(294): CController->render('matches', Array)
+#9 [internal function]: TournamentController->actionMatches('1')
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#19 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matches')
+#21 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#22 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/director/tournament/matches/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/teams/id/1
+---
+2014/07/02 12:46:35 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php:40)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(295): TournamentController->render()
+#3 unknown(0): TournamentController->actionMatches()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/matches/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php (40)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (295)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 12:47:20 [error] [php] Invalid argument supplied for foreach() (/home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php:40)
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(869): TournamentController->renderFile()
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(782): TournamentController->renderPartial()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(295): TournamentController->render()
+#3 unknown(0): TournamentController->actionMatches()
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): TournamentController->run()
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/director/tournament/matches/id/1
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/views/tournament/matches.php (40)
+in /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php (295)
+in /home4/colinfle/public_html/ragsblinddraw.com/index.php (13)
+2014/07/02 13:07:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2014/07/02 13:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administrator".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/
+---
+2014/07/02 13:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---
+2014/07/02 14:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "matches/view".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('matches/view')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/matches/23140305
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/matches/id/1
+---
+2014/07/02 14:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "matchresults".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('matchresults')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matchresults')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/director/tournament/matchresults/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/matches/id/1
+---

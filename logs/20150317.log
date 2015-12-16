@@ -1,0 +1,896 @@
+2015/03/17 08:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_ee/_fslib/swfupload/Changelog.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('_ee/_fslib/swfu...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_ee/_fslib/swfupload/Changelog.txt
+---
+2015/03/17 08:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sqlite/main.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sqlite/main.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sqlite/main.php
+---
+2015/03/17 08:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "auth/hybridauth/install.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/hybridauth...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/auth/hybridauth/install.php
+---
+2015/03/17 08:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hybridauth/install.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('hybridauth/inst...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/hybridauth/install.php
+---
+2015/03/17 08:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hybridauth/hybridauth/install.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('hybridauth/hybr...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/hybridauth/hybridauth/install.php
+---
+2015/03/17 08:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bigdump/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('bigdump/bigdump...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bigdump/bigdump.php
+---
+2015/03/17 08:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('bigdump.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bigdump.php
+---
+2015/03/17 08:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dump/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('dump/bigdump.ph...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dump/bigdump.php
+---
+2015/03/17 08:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/bigdump.p...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/bigdump.php
+---
+2015/03/17 08:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dump/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dump/bigd...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/dump/bigdump.php
+---
+2015/03/17 08:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backup/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('backup/bigdump....')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/backup/bigdump.php
+---
+2015/03/17 08:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backup/bigdump/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('backup/bigdump/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/backup/bigdump/bigdump.php
+---
+2015/03/17 08:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dump/bigdump/bigdump.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('dump/bigdump/bi...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dump/bigdump/bigdump.php
+---
+2015/03/17 08:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/tiny_mce/plu...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('jscripts/tiny_m...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/tiny_mce/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "media/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('media/editors/t...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('scripts/tiny_mc...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/webroot/js/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('app/webroot/js/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/webroot/js/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/scripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('data/scripts/ti...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/data/scripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('scripts/tinymce...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mod/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('mod/tinymce/jsc...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mod/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tiny_mce/plugin...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tinymce/jscript...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/tinymce/jscr...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/plugins/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/plugins/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/plugins/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tinybrowser/rea...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tinybrowser/readme.txt
+---
+2015/03/17 08:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "includes/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('includes/jscrip...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/includes/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sites/all/libra...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "media/js/tiny_mce/plugins/tinybrowser/readme.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('media/js/tiny_m...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/tiny_mce/plugins/tinybrowser/readme.txt
+---
+2015/03/17 08:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('jscripts/tiny_m...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/tiny_mce/plu...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('scripts/tiny_mc...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/tiny_mce/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/webroot/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('app/webroot/js/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/webroot/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tinymce/jscript...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fckeditor/editor/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('fckeditor/edito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fckeditor/editor/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('ajaxfilemanager...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('tiny_mce/plugin...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "zenphoto/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('zenphoto/zp-cor...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/zenphoto/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/tinymce/jscr...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photogallery/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('photogallery/zp...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photogallery/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photo/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('photo/zp-core/p...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photo/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/cms/resources/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('public/cms/reso...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/cms/resources/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/plugins/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/plugins/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/plugins/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "includes/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('includes/jscrip...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/includes/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sites/all/libra...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "media/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('media/js/tiny_m...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "plugins/editors/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('plugins/editors...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/editors/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/plugins/tinymce212/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/plugins/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/plugins/tinymce212/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js
+---
+2015/03/17 08:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('uploadify/uploa...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploadify/uploadify.css
+---
+2015/03/17 08:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apps/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('apps/uploadify/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/uploadify/uploadify.css
+---
+2015/03/17 08:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/uploadify/up...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/uploadify/uploadify.css
+---
+2015/03/17 08:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('scripts/uploadi...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/uploadify/uploadify.css
+---
+2015/03/17 08:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/uploadify...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/uploadify/uploadify.css
+---
+2015/03/17 08:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/scripts/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/scripts/u...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/scripts/uploadify/uploadify.css
+---
+2015/03/17 08:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/js/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/js/upload...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/uploadify/uploadify.css
+---
+2015/03/17 08:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "includes/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('includes/upload...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/includes/uploadify/uploadify.css
+---
+2015/03/17 08:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/includes/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/includes/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/includes/uploadify/uploadify.css
+---
+2015/03/17 08:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/uploadif...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/uploadify.css
+---
+2015/03/17 08:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "media/filebrowser/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('media/filebrows...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/filebrowser/uploadify/uploadify.css
+---
+2015/03/17 08:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/uploader/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/uploader/upl...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/uploader/uploadify.css
+---
+2015/03/17 08:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/uploader/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/uploader/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/uploader/uploadify.css
+---
+2015/03/17 08:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/js/uploader/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/js/upload...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/uploader/uploadify.css
+---
+2015/03/17 08:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('static/uploadif...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/uploadify/uploadify.css
+---
+2015/03/17 08:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "includes/js/plugins/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('includes/js/plu...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/includes/js/plugins/uploadify/uploadify.css
+---
+2015/03/17 08:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "core/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('core/uploadify/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/core/uploadify/uploadify.css
+---
+2015/03/17 08:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "inc/js/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('inc/js/uploadif...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/inc/js/uploadify/uploadify.css
+---
+2015/03/17 08:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/uploader/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('images/uploader...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/uploader/uploadify.css
+---
+2015/03/17 08:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/filebrowser/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/filebrows...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/filebrowser/uploadify/uploadify.css
+---
+2015/03/17 08:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/uploadif...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/uploadify/uploadify.css
+---
+2015/03/17 08:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/js/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('public/js/uploa...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/js/uploadify/uploadify.css
+---
+2015/03/17 08:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "media/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('media/uploadify...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/uploadify/uploadify.css
+---
+2015/03/17 08:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery/plugins/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery/plugi...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/plugins/uploadify/uploadify.css
+---
+2015/03/17 08:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery/uploadify/uploadify.css".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery/uploa...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/uploadify/uploadify.css
+---
+2015/03/17 08:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/fckeditor/ed...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FCKeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('FCKeditor/edito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/FCKeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "lib/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('lib/fckeditor/e...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/lib/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "include/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('include/fckedit...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/include/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sites/all/modul...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/editor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/editor/ed...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/editor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/fck/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/fck/edito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/fck/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('modules/fckedit...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "editor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('editor/editor/f...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/editor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('public/fckedito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/webroot/js/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('app/webroot/js/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/webroot/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/FCKeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/FCKeditor...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cms/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('cms/fckeditor/e...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cms/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/js/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/js/fckedi...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('editor/filemana...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manage/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('manage/fckedito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/manage/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "system/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('system/fckedito...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/system/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "plugins/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('plugins/fckedit...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "webadmin/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('webadmin/fckedi...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/webadmin/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/fckeditor/editor/filemanager/connectors/uploadtest.html".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/fckedit...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/fckeditor/editor/filemanager/connectors/uploadtest.html
+---
+2015/03/17 08:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "piwik/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('piwik/libs/open...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/piwik/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sites/all/modul...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ofc2/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('js/ofc2/php-ofc...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ofc2/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ofc/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('ofc/php-ofc-lib...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ofc/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "openemr/library/openflashchart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('openemr/library...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/openemr/library/openflashchart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sites/default/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('sites/default/m...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/default/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('php-ofc-library...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "includes/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('includes/php-of...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/includes/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "openflashchart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('openflashchart/...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/openflashchart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "stats/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('stats/libs/open...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stats/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('modules/civicrm...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "openemr-4.1.1/library/openflashchart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('openemr-4.1.1/l...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/openemr-4.1.1/library/openflashchart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('civicrm/package...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/open-flash-chart/php-ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('libs/open-flash...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin_area/charts/ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin_area/char...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin_area/charts/ofc-library/ofc_upload_image.php
+---
+2015/03/17 08:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ofc-library/ofc_upload_image.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('ofc-library/ofc...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ofc-library/ofc_upload_image.php
+---
+2015/03/17 16:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

@@ -1,0 +1,51 @@
+2014/07/15 04:58:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/07/15 08:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/15 11:26:38 [error] [exception.CException] exception 'CException' with message 'Tournament and its behaviors do not have a method or closure named "updateMatchesFromChallonge".' in /home4/colinfle/YiiRoot1.1.13/framework/base/CComponent.php:265
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/db/ar/CActiveRecord.php(225): CComponent->__call('updateMatchesFr...', Array)
+#1 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(694): CActiveRecord->__call('updateMatchesFr...', Array)
+#2 /home4/colinfle/public_html/ragsblinddraw.com/protected/modules/director/controllers/TournamentController.php(694): Tournament->updateMatchesFromChallonge()
+#3 [internal function]: TournamentController->actionmatchresults('1')
+#4 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#5 /home4/colinfle/YiiRoot1.1.13/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#6 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home4/colinfle/YiiRoot1.1.13/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(291): CFilterChain->run()
+#13 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('matchresults')
+#15 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#16 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/director/tournament/matchresults/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/matches/id/1
+---
+2014/07/15 14:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "finalizetournament".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('finalizetournam...')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('finalizetournam...')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('director/tourna...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/director/tournament/finalizetournament/id/1
+HTTP_REFERER=http://ragsblinddraw.com/director/tournament/matches/id/1
+---

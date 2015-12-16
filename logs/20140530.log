@@ -1,0 +1,74 @@
+2014/05/30 00:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/05/30 10:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+---
+2014/05/30 10:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "makeups".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('makeups')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('makeups')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/makeups')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/makeups
+---
+2014/05/30 10:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "players".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('players')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('players')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/players')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/players
+---
+2014/05/30 13:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/05/30 15:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "blinddraw".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('blinddraw')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('blinddraw')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blinddraw')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/blinddraw
+---
+2014/05/30 15:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "standings".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('standings')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('standings')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/standings')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/standings
+---
+2014/05/30 22:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

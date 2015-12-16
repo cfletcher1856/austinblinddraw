@@ -1,0 +1,46 @@
+2014/05/26 02:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('about')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://www.google.com
+---
+2014/05/26 02:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "http:".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php:483
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CController.php(270): CController->missingAction('http:')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(282): CController->run('http:')
+#2 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('site/http://www...')
+#3 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/http%3A%2F%2Fwww%2Eragsblinddraw%2Ecom%2Fsite%2Fabout
+HTTP_REFERER=http://www.google.com
+---
+2014/05/26 15:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2014/05/26 15:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administrator".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/
+---
+2014/05/26 15:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin.php".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---

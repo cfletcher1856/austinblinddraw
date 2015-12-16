@@ -1,0 +1,9 @@
+2015/07/05 03:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "\/site\/captcha".' in /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home4/colinfle/YiiRoot1.1.13/framework/web/CWebApplication.php(141): CWebApplication->runController('\/site\/captcha')
+#1 /home4/colinfle/YiiRoot1.1.13/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home4/colinfle/public_html/ragsblinddraw.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/%5C/site%5C/captcha?refresh=1
+HTTP_REFERER=http://ragsblinddraw.com/contact
+---
